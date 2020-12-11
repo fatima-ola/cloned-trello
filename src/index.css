@@ -1,13 +1,73 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navcontainer, nav{
+  background-color: #026aa7!important;
+
+}
+
+.logoimg img{
+ width: 80px;
+ height: 30px;
+}
+
+.logoimg{
+  text-align: center;
+}
+
+nav{
+  box-shadow: none !important;
+}
+
+.buttonicon{
+  text-align: right;
+}
+
+.thecol{
+  margin-top: 4px;
+  color: #e4f0f6;
+}
+.righticon{
+  background-color: hsla(0,0%,100%,.3);
+  border: 1px solid hsla(0,0%,100%,.3);
+  border-radius: 2px;
+  margin: 3px;
+}
+
+.boardinfo{
+  height: 200px;
+  text-align: center;
+  background-color:#f4f5f7 ;
+}
+
+.panel{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.panel Button {
+  background-color: #dfe1e6;
+  border: 1px solid #dfe1e6;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+  font-weight: 750;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.tab_btn{
+  margin: 0 5px;
+}
+
+/* .tab_btn .btn{
+  font-weight: 900;
+  font-size: 8px;
+  text-transform: lowercase;
+} */
+.btn a:hover{
+  background-color: #dfe1e6;
 }

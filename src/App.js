@@ -1,9 +1,18 @@
 import React from 'react';
+import Dashboard from './components/Dashboard/Dashboard';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
-function App() {
+const App=()=> {
   return (
-    <div className="App">
-      <h2>hello</h2>
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+          <Dashboard />
+          </Route>
+        </Switch>  
+      </BrowserRouter>
+      
     </div>
   );
 }
