@@ -1,3 +1,24 @@
+# clone version of trello board built with reactjs
+
+## Instruction on how to test the fuctionalities of this project
+
+- Fork a copy to your github account and clone to your machine
+- Open with git bash and run the command [npm install] to install the necessary dependencies
+- Start your server by running the command [npm start]. This will display the project on your browser.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
