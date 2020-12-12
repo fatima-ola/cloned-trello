@@ -20,7 +20,7 @@ const Navigation =()=> {
             </div>
             </Col>
             <Col
-                className="thecol"
+                className="thecol "
                 s={12} m={4} l={4}
             >
                 <div className="logoimg"><img src="logotrello.png" alt="trello logo"/></div>
@@ -32,7 +32,7 @@ const Navigation =()=> {
                 <div class="buttonicon">
                 <ButtonSection onClick={handleClick}  iconName="add" className="logbtn"/>
                 <ButtonSection onClick={handleClick}  iconName="error" className="logbtn"/>
-                <ButtonSection onClick={handleClick}  iconName="notifications_none" className="logbtn"/>
+                <ButtonSection onClick={handleClick}  iconName="notifications_none" className="logbtn red"/>
                 </div>
             </Col> 
             </Row>

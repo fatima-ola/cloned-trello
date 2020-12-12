@@ -26,9 +26,9 @@ nav{
 }
 
 .thecol{
-  margin-top: 10px;
   color: #e4f0f6;
 }
+
 .righticon{
   background-color: hsla(0,0%,100%,.3);
   border: 1px solid hsla(0,0%,100%,.3);
@@ -69,7 +69,16 @@ nav{
 
 .logbtn{
   background-color:  hsla(0,0%,100%,.3)!important;
-  height: 28px!important;
+  padding: 2px 8px 5px 8px!important;
+  margin-right: 2px;
+}
+
+.logoimg{
+  padding-top: 4px;
+}
+
+.btnicon, .buttonicon {
+padding: 3px;
 }
 
 .row{
