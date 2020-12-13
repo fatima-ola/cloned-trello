@@ -2,6 +2,7 @@ import React from 'react';
 import 'materialize-css';
 import {Row, Col} from 'react-materialize';
 import ButtonSection from './../Button/ButtonSection';
+import { NavLink } from 'react-router-dom';
 
 const Navigation =()=> {
     const handleClick = () =>{
@@ -16,7 +17,9 @@ const Navigation =()=> {
             >
             <div class="btnicon">
                 <ButtonSection onClick={handleClick}  iconName="apps" className="logbtn"/>
-                <ButtonSection onClick={handleClick}  iconName="home" className="logbtn"/>
+                <NavLink to="/">
+                    <ButtonSection onClick={handleClick}  iconName="home" className="logbtn"/>
+                </NavLink>
             </div>
             </Col>
             <Col

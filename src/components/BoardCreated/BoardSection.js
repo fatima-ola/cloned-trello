@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Modal, Button, Row, Card, Col, Icon} from 'react-materialize';
 import ButtonSection from './../Button/ButtonSection';
 import TextInputSection from './../TextInput/TextInputSection';
+import {NavLink} from 'react-router-dom';
 
 const BoardSection = ()=> {
 
@@ -66,14 +67,16 @@ const BoardSection = ()=> {
               return (
                 <div>
                   <Col  m={4}  s={12}>
-                    <Card
+                   <NavLink to="/createdboard">
+                   <Card
                     className="blue-grey darken-1" 
                     closeIcon={<Icon>close</Icon>}
-                    revealIcon={<Icon>more_vert</Icon>}
                     textClassName="white-text"
+                    revealIcon={<Icon>more_vert</Icon>}
                     title={item}
                     > 
                     </Card>
+                   </NavLink>
                   </Col>
                 </div>
               )
