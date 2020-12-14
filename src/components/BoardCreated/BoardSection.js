@@ -19,6 +19,8 @@ const BoardSection = ()=> {
       const {name, value} = e.currentTarget;
       if(name === 'boardtitle'){
         setBoardtitle(value);
+      }else{
+        setErrorMessage("Input Field is Empty")
       }
     }
 
@@ -83,6 +85,8 @@ const BoardSection = ()=> {
             })}
           </Row>
         </div>
+
+        
       </div>
        
     )

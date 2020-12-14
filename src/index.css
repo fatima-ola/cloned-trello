@@ -94,7 +94,6 @@ padding: 3px;
   background-color:  hsla(0,0%,100%,.3)!important;
   color: black;
 }
-/* .btn-large {
-  padding: 90px !important;
-  
-} */
+.addList{
+  padding: 15px;
+}
